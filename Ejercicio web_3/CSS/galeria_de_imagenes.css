@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #dfe9f5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 140%;
+    left: 0;
+    background: #fff;
+    width: 100px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.a_nav {
+    position: relative;
+    font-size: 15px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.a_nav:hover {
+    background: #eee;
+}
+
+.imagen_icono_1 {
+    margin-left: 20px;
+    width: 50px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.imagen_icono_2 {
+    width: 28px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.nav-item {
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+.imagen_1 {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.imagen_2 {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin-left: 550px;
+    margin-top: -300px;
+    text-align: center;
+}
+
+.imagen_3 {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin-left: 900px;
+    margin-top: -300px;
+    text-align: center;
+}
+
+.imagen_4 {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.imagen_5 {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin-left: 550px;
+    margin-top: -300px;
+    text-align: center;
+}
+
+.imagen_6 {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin-left: 900px;
+    margin-top: -300px;
+    text-align: center;
+}
+
+.C {
+    mix-blend-mode: darken;
+    filter: blur(5.5);
+    height: 200px;
+    margin-top: -10px;
+}
+
+.Python {
+    mix-blend-mode: darken;
+    filter: blur(5.5);
+    height: 200px;
+    margin-top: -10px;
+}
+
+.Java {
+    mix-blend-mode: darken;
+    filter: blur(5.5);
+    height: 150px;
+}
+
+.LC {
+    mix-blend-mode: darken;
+    filter: blur(5.5);
+    height: 150px;
+}
+
+.JavaScript {
+    mix-blend-mode: darken;
+    filter: blur(5.5);
+    height: 100px;
+    margin-top: 15px;
+}
+
+.Php {
+    mix-blend-mode: darken;
+    filter: blur(5.5);
+    height: 150px;
+    margin-top: -5px;
+}
+
+p {
+    font-size: 19px;
+    margin-top: -20px;
+}
+
+.Txt_Java {
+    margin-top: 18px;
+}
+
+.Txt_C-Sharp {
+    margin-top: 1px;
+}
+
+.Txt_JavaScript {
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 8px;
+    background: blueviolet;
+}

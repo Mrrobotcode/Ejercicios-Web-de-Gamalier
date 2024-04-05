@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #dfe9f5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #fff;
+    width: 100px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    position: relative;
+    font-size: 15px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+
+a:hover {
+    background: #eee;
+}
+
+.imagen_icono_1 {
+    margin-left: 20px;
+    width: 50px;
+    margin-top: 10px;
+    border-radius: 60%;
+    border: solid black 1px;
+}
+
+.imagen_icono_2 {
+    width: 28px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.nav-item {
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+.basico {
+    border: 1px solid black;
+    border-radius: 50px 50px;
+    width: 350px;
+    height: 350px;
+    margin-right: 700px;
+    margin-top: 140px;
+    text-align: center;
+    background: linear-gradient(150deg, #343759, black);
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.basico:hover {
+    transform: scale(1.1);
+    border-color: cyan;
+    background: #343759;
+    color: #fff;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.imagen_icono {
+    width: 35px;
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+p {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(150deg, darkmagenta, cyan);
+    color: #fff;
+    margin-top: 20px;
+}
+
+.boton_1 {
+    margin-top: 40px;
+}
+
+.intermedio {
+    border: 1px solid black;
+    border-radius: 50px 50px;
+    width: 350px;
+    height: 350px;
+    margin-top: -370px;
+    margin-left: 570px;
+    transition: 0.5s ease-in-out;
+    text-align: center;
+    background: linear-gradient(150deg, darkmagenta, cyan);
+    color: #fff;
+}
+
+.intermedio:hover {
+    transform: scale(1.1);
+    border-color: darkmagenta;
+    color: #fff;
+    background: #343759;
+}
+
+.avanzado {
+    border: 1px solid black;
+    border-radius: 50px 50px;
+    width: 350px;
+    height: 350px;
+    margin-left: 990px;
+    margin-top: -370px;
+    transition: 0.5s ease-in-out;
+    text-align: center;
+    background: linear-gradient(150deg, #7700ff, gold);
+    color: #fff;
+}
+
+.avanzado:hover {
+    transform: scale(1.1);
+    border-color: gold;
+    color: #fff;
+    background: #343759;
+}

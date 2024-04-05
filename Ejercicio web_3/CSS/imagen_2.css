@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+}
